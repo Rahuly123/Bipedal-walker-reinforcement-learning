@@ -13,13 +13,11 @@ The code is based on the original repository by Rafael1s, with several modificat
 From the original repository, only files needed to execute PPO were extracted and run. The original code was also slighty modified for improved compatibility, reproducibility, and functionality. The following modifications were done:
 
 * Updated the environment from 'BipedalWalker-v2' to 'BipedalWalker-v3'.
-* Removed duplicate import statements.Refined device selection to use 'cpu' if CUDA is unavailable.
+* Removed duplicate import statements.
 * Added numpy seeding for reproducibility.
-* Updated the Policy model and ppo_agent to align with the new environment.
-* Added a save function for the model's actor, critic, and critic linear state dictionaries.
 * Adjusted the training loop to log scores, save models periodically, and break the loop when the environment is solved.
 * Enhanced logging and visualization by exporting scores to a CSV file and improving plotting.
-* Refined the play_VecEnv function to reset and render the environment for specified episodes, ensuring proper resource cleanup.
+* Implemented rendering function for intial agent performance.
 * Added environment closure at the script's end to release resources.
 ## Setup
 

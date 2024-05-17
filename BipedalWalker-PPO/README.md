@@ -5,7 +5,7 @@
 ## Overview
 
 Proximal Policy Optimization (PPO) is implemented for training an agent to solve the BipedalWalker environment using a vectorized environment setup.
-Solving this environment require an average total reward of over 300 over 100 consecutive episodes. Training of BipedalWalker is very difficult to train BipedalWalker by PPO with one agent. In this directory we solve the environment by using PPO with multi-agent algorithm.
+Solving this environment require an average total reward of over 300 over 100 consecutive episodes. Training of BipedalWalker is very difficult by PPO with one agent. In this directory we solve the environment by using PPO with multi-agent algorithm.
 
 The code is based on the original repository by Rafael1s, with several modifications to enhance functionality and performance.
 ## Modifications Done
